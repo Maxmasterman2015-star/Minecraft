@@ -1,0 +1,77 @@
+{
+  "minecraft_version": "26.3",
+  "edition": "Java",
+  "release_name": "Wilderness Bound",
+  "release_date": "2026-09-15",
+  "protocol_version": 777,
+  "data_version": 5023,
+  "resource_pack_format": 97.1,
+  "data_pack_format": 121.0,
+  "minimum_java_version": "Java SE 25",
+  "litematica_version": "0.29.0",
+  "malilib_version": "latest",
+  "fabric_loader_version": "latest",
+  "new_features": [
+    "Dappled forest biome",
+    "Poplar wood set",
+    "Red shrubs",
+    "Shelf mushrooms",
+    "Wool stairs and slabs (16 colors)",
+    "Concrete stairs and slabs (16 colors)",
+    "Straw beds",
+    "Cushions",
+    "Abandoned camps structure",
+    "/compute command",
+    "/posteffect command"
+  ],
+  "new_blocks": [
+    "poplar_log",
+    "stripped_poplar_log",
+    "poplar_wood",
+    "stripped_poplar_wood",
+    "poplar_planks",
+    "poplar_stairs",
+    "poplar_slab",
+    "poplar_fence",
+    "poplar_fence_gate",
+    "poplar_door",
+    "poplar_trapdoor",
+    "poplar_button",
+    "poplar_pressure_plate",
+    "poplar_sign",
+    "poplar_hanging_sign",
+    "poplar_leaves (red, orange, yellow)",
+    "poplar_sapling",
+    "red_shrub",
+    "shelf_mushroom (small, large)",
+    "straw_bed",
+    "cushion (entity)",
+    "wool_stairs (16 colors)",
+    "wool_slab (16 colors)",
+    "concrete_stairs (16 colors)",
+    "concrete_slab (16 colors)",
+    "poplar_boat",
+    "poplar_chest_boat"
+  ],
+  "compatibility_notes": {
+    "litematica": "Fully compatible with Litematica 0.29.0+",
+    "worldedit": "Compatible with WorldEdit versions supporting 26.3",
+    "structure_blocks": "Compatible with vanilla structure blocks",
+    "backward_compatibility": "Can load schematics from older versions with warnings"
+  },
+  "block_palette_info": {
+    "total_unique_block_states": "350-400",
+    "recommended_index_size": "16-bit (2 bytes per block)",
+    "estimated_file_size": "10-50 MB for mega-builds"
+  },
+  "construction_info": {
+    "total_stages": 9,
+    "estimated_block_count": 50000,
+    "estimated_volume": 990000,
+    "dimensions": {
+      "width": 110,
+      "height": 90,
+      "length": 100
+    }
+  }
+}
